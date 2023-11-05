@@ -1,0 +1,25 @@
+div {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large; 
+}
+/* Rule 1
+- has only one class selector */
+.subsection {
+    color: blue;
+}
+
+/* This Rule 1 is more specific because ID beats class */
+#subsection {
+    background-color: yellow;
+    color: blue;
+}
+
+
+/* Rule 2 
+- more specific 
+- more class selectors
+- dclaration would take precedence */
+.main .list {
+    color: red;
+}
